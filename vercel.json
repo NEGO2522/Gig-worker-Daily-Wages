@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/user", "destination": "/index.html" },
+    { "source": "/worker", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
