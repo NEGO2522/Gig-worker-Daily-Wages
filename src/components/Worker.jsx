@@ -110,6 +110,9 @@ const Worker = () => {
               <button className="p-2 text-gray-300 hover:text-white">
                 <FiBell className="h-6 w-6" />
               </button>
+              <button className="p-2 text-gray-300 hover:text-white">
+                EN
+              </button>
               <div className="flex items-center space-x-2">
                 <div className="h-8 w-8 rounded-full bg-gray-700 flex items-center justify-center">
                   <FiUser className="text-white" />
