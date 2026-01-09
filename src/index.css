@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+/* Leaflet Map Styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background-color: #1a202c; /* Dark background for the map */
+  z-index: 1;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #1f2937; /* Dark background for popup */
+  color: #f3f4f6; /* Light text color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.leaflet-popup-content {
+  margin: 8px 12px;
+}
+
+.leaflet-popup-tip {
+  background: #1f2937; /* Match popup background */
+}
+
+.leaflet-control-zoom {
+  display: none; /* Hide default zoom controls as we have custom ones */
+}
+
+/* Ensure map tiles are properly displayed */
+.leaflet-tile {
+  filter: brightness(0.6) contrast(1.1); /* Slightly darken the map tiles */
+}
+
+/* Custom scrollbar for the page */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a202c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}

@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.18",
+    "aos": "^2.3.4",
     "firebase": "^12.7.0",
     "framer-motion": "^12.25.0",
     "leaflet": "^1.9.4",
