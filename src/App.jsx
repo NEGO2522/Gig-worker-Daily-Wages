@@ -41,12 +41,9 @@ function App() {
             </>
           } />
           <Route path="/worker" element={
-            <>
-              <Navbar />
-              <main>
-                {user ? <Worker /> : <Navigate to="/" replace />}
-              </main>
-            </>
+            <main>
+              {user ? <Worker /> : <Navigate to="/" replace />}
+            </main>
           } />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
